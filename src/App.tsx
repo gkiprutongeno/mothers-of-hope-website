@@ -97,7 +97,7 @@ const scrollTo = (id: string) => {
             <div className="relative">
               <div className="bg-gradient-to-br from-blue-200 to-green-200 rounded-2xl p-8 shadow-2xl">
                 <img 
-                  src="src/logo.jpg" 
+                  src="/logo.jpg" 
                   alt="Community volunteers working together"
                   className="w-full h-96 object-cover rounded-xl shadow-lg"
                 />
@@ -191,37 +191,37 @@ const scrollTo = (id: string) => {
               {
                 title: 'Education Excellence Program',
                 description: 'Providing tutoring, scholarships, and educational resources to ensure every child has access to quality learning opportunities.',
-                image: 'src/education.jpg',
+                image: '/education.jpg',
                 color: 'blue'
               },
               {
                 title: 'Community Health Initiative',
                 description: 'Mobile clinics and health education programs bringing essential healthcare services directly to underserved communities.',
-                image: 'src/health.jpg',
+                image: '/health.jpg',
                 color: 'green'
               },
               {
                 title: 'Feeding Program',
                 description: 'Weekly meal distributions and nutrition workshops to combat food insecurity and promote healthy eating habits among children and families.',
-                image: 'src//assets//feeding.jpg',
+                image: '/feeding.jpg',
                 color: 'amber'
               },
               {
                 title: 'Counseling and Support Services',
                 description: 'Offering trauma-informed counseling and emotional support to help children and families heal and thrive.',
-                image: 'src/support.jpg',
+                image: '/support.jpg',
                 color: 'purple'
               },
               {
                 title: 'Environmental Conservation',
                 description: 'Community clean-up drives, tree planting, and sustainability education to promote a healthier environment.',
-                image: 'src/conservation.jpg',
+                image: '/conservation.jpg',
                 color: 'teal'
               },
               {
                 title: 'Empowerment',
                 description: 'Committed to fostering self-resilience equipping children and disadvantaged individuals with the skills, knowledge and confidence to shape their Own futures.',
-                image: 'src/empowerment.jpg',
+                image: '/empowerment.jpg',
                 color: 'red'
               }
 
@@ -262,25 +262,25 @@ const scrollTo = (id: string) => {
               {
                 name: 'Grace W Mathangani',
                 role: 'Executive Director',
-                image: 'src/Director.jpg',
+                image: '/Director.jpg',
                 bio: 'Provides strategic leadership and vision for the organization, ensures compliance with policies, and represents the CBO in partnerships and community engagements.'
               },
               {
                 name: 'Nancy Gachugu',
                 role: 'Deputy Director',
-                image: 'src/NancyGachugu.jpg',
+                image: '/NancyGachugu.jpg',
                 bio: 'Supports the Executive Director in managing daily operations, program implementation, and stakeholder relations.'
               },
               {
                 name: 'Lydia Kiilu',
                 role: 'Community Outreach Coordinator',
-                image: 'src/Coordinator.jpg',
+                image: '/lydia.jpg',
                 bio: 'Passionate advocate for community engagement and volunteer coordination.'
               },
               {
                 name: 'Abraham Wekesa',
                 role: 'Member',
-                image: 'src/wekesa.jpg',
+                image: '/wekesa.jpg',
                 bio: 'Committed to driving positive change through grassroots initiatives and community development.'
               }
             ].map((member, index) => (
