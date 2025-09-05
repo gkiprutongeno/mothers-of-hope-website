@@ -97,7 +97,7 @@ const scrollTo = (id: string) => {
             <div className="relative">
               <div className="bg-gradient-to-br from-blue-200 to-green-200 rounded-2xl p-8 shadow-2xl">
                 <img 
-                  src="src\assets\logo.jpg" 
+                  src="src/logo.jpg" 
                   alt="Community volunteers working together"
                   className="w-full h-96 object-cover rounded-xl shadow-lg"
                 />
@@ -191,13 +191,13 @@ const scrollTo = (id: string) => {
               {
                 title: 'Education Excellence Program',
                 description: 'Providing tutoring, scholarships, and educational resources to ensure every child has access to quality learning opportunities.',
-                image: 'src//assets//education.jpg',
+                image: 'src/education.jpg',
                 color: 'blue'
               },
               {
                 title: 'Community Health Initiative',
                 description: 'Mobile clinics and health education programs bringing essential healthcare services directly to underserved communities.',
-                image: 'src//assets//health.jpg',
+                image: 'src/health.jpg',
                 color: 'green'
               },
               {
@@ -209,19 +209,19 @@ const scrollTo = (id: string) => {
               {
                 title: 'Counseling and Support Services',
                 description: 'Offering trauma-informed counseling and emotional support to help children and families heal and thrive.',
-                image: 'src//assets//support.jpg',
+                image: 'src/support.jpg',
                 color: 'purple'
               },
               {
                 title: 'Environmental Conservation',
                 description: 'Community clean-up drives, tree planting, and sustainability education to promote a healthier environment.',
-                image: 'src//assets//conservation.jpg',
+                image: 'src/conservation.jpg',
                 color: 'teal'
               },
               {
                 title: 'Empowerment',
                 description: 'Committed to fostering self-resilience equipping children and disadvantaged individuals with the skills, knowledge and confidence to shape their Own futures.',
-                image: 'src//assets//empowerment.jpg',
+                image: 'src/empowerment.jpg',
                 color: 'red'
               }
 
@@ -262,25 +262,25 @@ const scrollTo = (id: string) => {
               {
                 name: 'Grace W Mathangani',
                 role: 'Executive Director',
-                image: 'src//assets//Director.jpg',
+                image: 'src/Director.jpg',
                 bio: 'Provides strategic leadership and vision for the organization, ensures compliance with policies, and represents the CBO in partnerships and community engagements.'
               },
               {
                 name: 'Nancy Gachugu',
                 role: 'Deputy Director',
-                image: 'src//assets//NancyGachugu.jpg',
+                image: 'src/NancyGachugu.jpg',
                 bio: 'Supports the Executive Director in managing daily operations, program implementation, and stakeholder relations.'
               },
               {
                 name: 'Lydia Kiilu',
                 role: 'Community Outreach Coordinator',
-                image: 'src//assets//Coordinator.jpg',
+                image: 'src/Coordinator.jpg',
                 bio: 'Passionate advocate for community engagement and volunteer coordination.'
               },
               {
                 name: 'Abraham Wekesa',
                 role: 'Member',
-                image: 'src//assets//wekesa.jpg',
+                image: 'src/wekesa.jpg',
                 bio: 'Committed to driving positive change through grassroots initiatives and community development.'
               }
             ].map((member, index) => (
