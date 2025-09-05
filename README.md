@@ -7,7 +7,6 @@ Built with [Vite](https://vitejs.dev/), [React](https://react.dev/), and [Tailwi
 - Modern, responsive design
 - Fast build with Vite
 - Styled with Tailwind CSS
-- Deployable on Vercel
 
 ## 📂 Project Setup
 Install dependencies:
