@@ -262,7 +262,7 @@ const scrollTo = (id: string) => {
               {
                 name: 'Grace W Mathangani',
                 role: 'Executive Director',
-                image: '/Director.jpg',
+                image: '/executiveDirector.jpg',
                 bio: 'Provides strategic leadership and vision for the organization, ensures compliance with policies, and represents the CBO in partnerships and community engagements.'
               },
               {
